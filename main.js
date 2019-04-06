@@ -16,12 +16,10 @@ $(document).ready(function() {
   });
 
   $(".carousel-daddy").slick({
-    // slidesToShow: 1,
-    // slidesToScroll: 1,
-    // autoplay: true,
-    // autoplaySpeed: 2000,
-    arrows: false,
+    arrows: true,
     dots: true,
-    autoplay: true
+    autoplay: true,
+    autoplaySpeed: 3000,
+    // centerMode: true
   });
 });
