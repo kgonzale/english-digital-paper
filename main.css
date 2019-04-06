@@ -1,6 +1,6 @@
 .front-page {
     width: 98%;
-    height: 90%;
+    height: 70%;
     position: absolute;
     justify-content: center;
     display: flex;
@@ -40,8 +40,12 @@
   position: absolute;
 }
 
-body {
-  background-image:url(./images/bg.jpg);
-  background-repeat: no-repeat;
-  background-size: 2000px 1000px;
+#sub-content {
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 400px;
+  padding-right: 400px;
 }
